@@ -10,7 +10,7 @@ public class Shop {
     private static Object List;
 
     public static void main(String[] args) {
-
+        System.out.println();
         Car modelS = new Model_S();
         Car modelX = new Model_X();
         Car modelY = new Model_Y();
@@ -115,4 +115,5 @@ public class Shop {
         System.out.println("Menu: \n" +
                 "1-All cars || 2-Add cars || 3-Remove cars || 4-Sort || 0-Exit");
     }
+
 }
